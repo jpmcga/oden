@@ -1,1 +1,1 @@
-Working through theodinproject.com
+hey look at me using vscode
