@@ -1,0 +1,49 @@
+/* style.css */
+
+h1 {
+    font-family: "Apple Chancery", cursive;
+    font-variant-east-asian: traditional;
+}
+
+h4 {
+    font-family: Trattatello, fantasy;
+    font-size: 20px;
+}
+
+p {
+    font-family: "Bradley Hand", cursive;
+}
+
+ul {
+    font-family: papyrus, cursive;
+    font-size: italic;
+    color: rgba(34, 33, 33, 0.929);
+}
+
+img {
+    height: 338px;
+    width: 576px;
+}
+
+.yield {
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 32x;
+    background-color: rgb(251, 255, 0);
+}
+
+#pie {
+    background-color: #5cc5e2;
+}
+
+#shrimp {
+    background-color: #e6609f;
+}
+
+#sandwhiches {
+    background-color: #20a824;
+}
+
+ol {
+    font-family: "Brush Script MT", cursive;
+    font-size: 20px;
+}
