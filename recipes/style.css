@@ -1,13 +1,27 @@
 /* style.css */
 
+body {
+    max-width: 500px;
+    margin: auto;
+    border: 6px double rgb(15, 133, 7);
+    padding-left: 100px;
+    padding-right: 160px;
+}
+
 h1 {
     font-family: "Apple Chancery", cursive;
     font-variant-east-asian: traditional;
+    padding-left: 150px;
 }
 
 h4 {
     font-family: Trattatello, fantasy;
     font-size: 20px;
+    padding-left: 200px;
+}
+
+#shrimp-title {
+    padding-left: 100px;
 }
 
 p {
@@ -18,6 +32,7 @@ ul {
     font-family: papyrus, cursive;
     font-size: italic;
     color: rgba(34, 33, 33, 0.929);
+    border: 1px dashed rgb(10, 99, 5);
 }
 
 img {
@@ -28,7 +43,7 @@ img {
 .yield {
     font-family: "Lucida Handwriting", cursive;
     font-size: 32x;
-    background-color: rgb(251, 255, 0);
+    background-color: rgba(238, 212, 10, 0.814);
 }
 
 #pie {
@@ -44,6 +59,6 @@ img {
 }
 
 ol {
-    font-family: "Brush Script MT", cursive;
-    font-size: 20px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 15px;
 }

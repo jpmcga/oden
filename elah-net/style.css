@@ -1,0 +1,35 @@
+/* style.css */
+
+body {
+    max-width: 600px;
+    margin: auto;
+    border: 6px double rgb(15, 133, 7);
+    padding-left: 100px;
+    padding-right: 160px;
+}
+
+h1 {
+    font-family: "Apple Chancery", cursive;
+    font-variant-east-asian: traditional;
+}
+
+h4 {
+    font-family: Trattatello, fantasy;
+    font-size: 20px;
+}
+
+p {
+    font-family: "Bradley Hand", cursive;
+}
+
+ul {
+    font-family: papyrus, cursive;
+    font-size: italic;
+    color: rgba(34, 33, 33, 0.929);
+    border: 1px dashed rgb(10, 99, 5);
+}
+
+ol {
+    font-family: "Brush Script MT", cursive;
+    font-size: 20px;
+}
