@@ -1,64 +1,100 @@
 /* style.css */
 
 body {
-    max-width: 500px;
+    margin: 30px auto;
+    height: 2000px;
+
+    /* modified from https://www.magicpattern.design/tools/css-backgrounds */
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image:  repeating-linear-gradient(90deg,  #e6d18e 25%, transparent 25%, transparent 75%,  #e6d18e 75%, #444cf7), repeating-linear-gradient(45deg, #e63306ad 25%, #e5e5f7 25%, #f7e7e5 75%, #444cf7 75%, #f77744);
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px;
+    }
+    
+p {
+    font-family: "Bradley Hand", cursive;
     margin: auto;
-    border: 6px double rgb(15, 133, 7);
-    padding-left: 100px;
-    padding-right: 160px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 h1 {
     font-family: "Apple Chancery", cursive;
     font-variant-east-asian: traditional;
-    padding-left: 150px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 h4 {
     font-family: Trattatello, fantasy;
     font-size: 20px;
-    padding-left: 200px;
-}
-
-#shrimp-title {
-    padding-left: 100px;
-}
-
-p {
-    font-family: "Bradley Hand", cursive;
-}
-
-ul {
-    font-family: papyrus, cursive;
-    font-size: italic;
-    color: rgba(34, 33, 33, 0.929);
-    border: 1px dashed rgb(10, 99, 5);
-}
-
-img {
-    height: 338px;
-    width: 576px;
-}
-
-.yield {
-    font-family: "Lucida Handwriting", cursive;
-    font-size: 32x;
-    background-color: rgba(238, 212, 10, 0.814);
-}
-
-#pie {
-    background-color: #5cc5e2;
-}
-
-#shrimp {
-    background-color: #e6609f;
-}
-
-#sandwhiches {
-    background-color: #20a824;
+    margin: auto;
+    text-align: center;
 }
 
 ol {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 15px;
+}
+
+ul {
+    font-family: papyrus, cursive;
+    font-size: italic;
+    border: 1px dashed rgb(10, 99, 5);
+    padding: 10px 20px;
+    list-style-type: none;
+    text-align: center;
+}
+
+img {
+    height: 338px;
+    width: 576px;
+    margin: 0px 20px 20px 12px;
+}
+
+.card {
+    border: 6px double rgb(15, 133, 7);
+    background-color: #e6d18e;
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+
+.yield {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 28x;
+    text-align: center;
+    background-color: rgba(90, 113, 128, 0.814);
+    padding: 5px 10px;
+    opacity: .6;
+}
+
+#pie {
+    background-color: #5cc5e2;
+    width: 600px;
+    margin: auto;
+    border: 6px double rgb(15, 133, 7);
+    padding: 10px;
+}
+
+#shrimp {
+    background-color: #e6609f;
+    width: 600px;
+    margin: auto;
+    border: 6px double rgb(15, 133, 7);  
+    padding: 10px;
+    
+}
+
+#sandwhiches {
+    background-color: #20a824;
+    width: 600px;
+    margin: auto;
+    border: 6px double rgb(15, 133, 7);
+    padding: 10px;
 }
